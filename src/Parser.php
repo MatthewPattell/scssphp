@@ -2427,7 +2427,7 @@ class Parser
      *
      * @return array
      */
-    protected function stripAssignmentFlags(&$value)
+    protected function stripAssignmentFlag(&$value)
     {
         $flags = [];
 
